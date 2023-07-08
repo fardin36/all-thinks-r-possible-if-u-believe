@@ -210,6 +210,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 50px 10%;
+    gap: 100px;
 }
 
 .future-title {
@@ -230,6 +231,7 @@ footer p {
     display: flex;
     gap: 20px;
 }
+
 .social-link img {
     cursor: pointer;
 }
@@ -261,4 +263,5 @@ footer p {
     padding: 0 50px;
     font-size: 18px;
     font-weight: 400;
+    cursor: text;
 }
