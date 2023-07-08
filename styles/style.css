@@ -1,6 +1,6 @@
 /* Common shared styles */
 
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
@@ -41,6 +41,8 @@ body {
 }
 
 .banner-title {
+    padding: 0;
+    margin-bottom: 0;
     color: #151414;
     text-align: right;
     font-size: 65px;
@@ -48,8 +50,55 @@ body {
 }
 
 .banner-description {
+    padding: 0;
     color: #444343;
     text-align: right;
     font-size: 16px;
     font-weight: 400;
+    margin: 20px 0 30px 0;
+}
+
+/* this is main section  */
+
+/* This is Experience Section  */
+
+.experience {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.my-pic {
+    height: 70%;
+}
+
+.failures {
+    width: 50%;
+    position: relative;
+    float: right;
+}
+
+.failure-list {
+    list-style-type: none;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.failure-description {
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.failure-topic {
+
+}
+span{
+    color: #16D887;
+    margin-right: 5px;
 }
