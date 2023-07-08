@@ -15,8 +15,7 @@
     text-align: right;
     font-size: 20px;
     font-weight: 600;
-    position: relative;
-    float: right;
+    cursor: pointer;
 }
 
 /* This is Banner Section  */
@@ -58,6 +57,16 @@
     margin: 20px 0 30px 0;
 }
 
+.contact-us {
+
+    position: relative;
+    float: right;
+}
+.contact-us:hover {
+    background-color: #2d2d2d;
+    color: white;
+}
+
 /* this is main section  */
 
 /* This is Experience Section  */
@@ -70,8 +79,17 @@
     padding: 0 200px;
 }
 
-.my-pic {
+.my-pic-div {
     height: 70%;
+    width: 50%;
+    display: absolute;
+    text-align: center;
+}
+
+.my-pic {
+    background-color: #00000014;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .failures {
@@ -89,16 +107,93 @@
     font-size: 40px;
     font-weight: 700;
 }
-.failure-description {
-    color:#444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-}
-.failure-topic {
 
+.failure-description {
+    margin: 25px 0 15px 0;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
-span{
+
+.failure-topic {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+span {
     color: #16D887;
     margin-right: 5px;
+}
+
+/* this is My Plan section  */
+
+.my-plan-container {
+    height: 100vh;
+    margin-bottom: 100px;
+    text-align: center;
+    height: 100vh;
+    padding: 0 230px;
+}
+
+.my-plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-plan-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 50px 0;
+    gap: 85px;
+}
+
+.my-plan-icon {
+    height: 90px;
+    width: 90px;
+}
+
+.my-plan-topic {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.my-plan-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact-me {
+    padding-top: 100px;
+    padding-left: 50px;
+    height: 200px;
+    background-image: url("../images/gradient2.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: left;
+
+}
+
+.positive-mindset {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.call-now {
+    color: #F15B22;
+    background-color: white;
+}
+.call-now:hover {
+    background-color: #2d2d2d;
+    color: white;
 }
